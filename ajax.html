@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        tbody,th,td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        #mail{
+            text-transform: lowercase !important;
+        }
+      th{
+          background: #4f4fdd;
+      }
+      .card-header{
+        text-transform: uppercase;
+      }
+ p{
+   font-weight: 600;
+ }
+    </style>
+<body>
+
+<div id="demo">
+<h1>STUDENTS TABLE</h1>
+<p>Try display students details</p>
+<button type="button" onclick="loadDoc()">Display Table</button>
+</div>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "kim.txt", true);
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>

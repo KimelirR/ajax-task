@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card-header">
+                <h1>
+                    Table of Students
+                </h1>
+            </div>
+            <div class="card-body">
+            <table class="table-bordered table-stripped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Kimeli</td>
+                        <td id="mail">kim@mail.com</td>
+                        <td>Computer Science</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Agness</td>
+                        <td id="mail">Agness@mail.com</td>
+                        <td>Tourism</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Janneth</td>
+                        <td id="mail">janneth@mail.com</td>
+                        <td>Agricultural Extension</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Alliance</td>
+                        <td id="mail">alliance@mail.com</td>
+                        <td>English Literature</td>
+                    </tr>
+                </tbody>
+            </table>
+          
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
